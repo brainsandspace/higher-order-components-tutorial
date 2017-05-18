@@ -1,0 +1,42 @@
+{
+  "name": "higher-order-components-tutorial",
+  "author": {
+    "name": "brainsandspace",
+    "email": "drbaker2@gmail.com",
+    "url": "none"
+  },
+  "version": "0.0.0",
+  "description": "Notes taken during egghead course by same name.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0",
+    "build": "webpack -p",
+    "test": "jest"
+  },
+  "repository": "",
+  "keywords": [],
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "*",
+    "jest": "*",
+    "jest-cli": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "dependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "^5.0.5",
+    "recompose": "^0.23.4",
+    "redux": "^3.6.0"
+  },
+  "license": "MIT"
+}
